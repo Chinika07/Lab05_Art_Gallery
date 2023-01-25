@@ -1,7 +1,7 @@
 public class Artist {
     String name;
 
-//constructor
+// Constructor
 
     public Artist(String name) {
         this.name = name;

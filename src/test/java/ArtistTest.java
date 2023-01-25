@@ -7,7 +7,8 @@ public class ArtistTest {
     Artist artist;
 
     @BeforeEach
-    public void setUp(){ artist = new Artist ("Van Gogh");}
+    public void setUp() {
+        artist = new Artist ("Van Gogh");}
 
 
     @Test
