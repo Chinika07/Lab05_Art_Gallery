@@ -1,26 +1,33 @@
-import java.util.ArrayList;
+//import java.util.ArrayList;
+//
+//public class Gallery {
+//
+//    private String name;
+//    private int till;
+//    private ArrayList<Artwork> stock;
+//
+//    //constructor
+//
+//    public Gallery(String name){
+//        this.name = name;
+//        this.till = 0;
+//        this.stock = new ArrayList<>();
+//
+//    }
+//
+//    //getters and setters
+//    public String getName(){
+//        return this.name;
+//    }
+//
+//    public int getTill(){
+//        return this.till;
+//    }
+//    
+//    public ArrayList<Artwork>()
+//    
+//
+//
 
-public class Gallery {
 
-    private String name;
-    private int till;
-    private ArrayList<Artwork> stock;
-
-    //constructor
-
-    public Gallery(String name){
-        this.name = name;
-        this.till = 0;
-        this.stock = new ArrayList<>();
-
-    }
-
-    //getters and setters
-    public String getName(){
-
-    }
-
-
-
-
-}
+//}
