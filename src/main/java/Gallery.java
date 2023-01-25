@@ -39,7 +39,11 @@ public class Gallery {
 
     // Methods
 
-    public void addToTill(Artwork artwork) {this.till+= artwork.getPrice();}
+    public int countTill(){return this.till;}
+
+    public void addToTill(Artwork artwork) {this.till += artwork.getPrice();}
+
+
 
 
 
