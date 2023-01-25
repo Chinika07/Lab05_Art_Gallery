@@ -10,7 +10,7 @@ public class ArtworkTest {
     @BeforeEach
     public void setUp(){
         artist1 = new Artist("Van Gogh");
-        artwork = new Artwork("Starry Night", artist1);
+        artwork = new Artwork("Starry Night", artist1, 200);
     }
 
     @Test
@@ -21,7 +21,7 @@ public class ArtworkTest {
     //getter
     @Test
     public void hasPrice(){
-       assertThat(artwork.getPrice()).isEqualTo(0);
+       assertThat(artwork.getPrice()).isEqualTo(200);
     }
 
     //setter

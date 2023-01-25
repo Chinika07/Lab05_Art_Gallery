@@ -6,10 +6,10 @@ public class Artwork {
     private int nft;
 
     //Constructor
-    public Artwork(String title, Artist artist){
+    public Artwork(String title, Artist artist, int price){
           this.title = title;
           this.artist = artist;
-          this.price = 0;
+          this.price = price;
           this.nft = 0;
     }
 
