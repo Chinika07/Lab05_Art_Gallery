@@ -44,8 +44,4 @@ public class Gallery {
     public void addToTill(Artwork artwork) {this.till += artwork.getPrice();}
 
 
-
-
-
-
 }
